@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <servlet-name>ClientAccessCounts Servlet</servlet-name>
+    <servlet-class>com.beat_software.javaweb.ClientAccessCounts</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClientAccessCounts Servlet</servlet-name>
+    <url-pattern>/client-access-counts</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CookieTest Servlet</servlet-name>
+    <servlet-class>com.beat_software.javaweb.CookieTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CookieTest Servlet</servlet-name>
+    <url-pattern>/cookie-test</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LongLivedCookie Servlet</servlet-name>
+    <servlet-class>com.beat_software.javaweb.LongLivedCookie</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LongLivedCookie Servlet</servlet-name>
+    <url-pattern>/long-lived-cookie</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegistrationForm Servlet</servlet-name>
+    <servlet-class>com.beat_software.javaweb.RegistrationForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationForm Servlet</servlet-name>
+    <url-pattern>/registration-form</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegistrationServlet Servlet</servlet-name>
+    <servlet-class>com.beat_software.javaweb.RegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet Servlet</servlet-name>
+    <url-pattern>/registration-servlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RepeatVisitor Servlet</servlet-name>
+    <servlet-class>com.beat_software.javaweb.RepeatVisitor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RepeatVisitor Servlet</servlet-name>
+    <url-pattern>/repeat-visitor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RepeatVisitor2 Servlet</servlet-name>
+    <servlet-class>com.beat_software.javaweb.RepeatVisitor2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RepeatVisitor2 Servlet</servlet-name>
+    <url-pattern>/repeat-visitor2</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
