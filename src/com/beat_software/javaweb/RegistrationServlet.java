@@ -46,7 +46,7 @@ public class RegistrationServlet extends HttpServlet {
                                     emailAddress);
     response.addCookie(c3);
     String formAddress =
-      "coreservlets.RegistrationForm";
+      "registration-form";
     if (isMissingValue) {
       response.sendRedirect(formAddress);
     } else {
